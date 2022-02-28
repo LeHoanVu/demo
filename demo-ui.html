@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Test</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Roboto, serif;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+        }
+
+        .container .nav {
+            width: 150px;
+            max-width: 150px;
+            height: 100%;
+            background: #191718;
+
+
+        }
+
+        .container .nav ul {
+            list-style: none;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container .nav ul li {
+            height: 44px;
+            padding-left: 16px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            border-bottom: 1px solid #5C5C5C;
+
+        }
+
+        .container .nav ul li:hover {
+            background: #5C5C5C;
+        }
+
+        .container .nav ul li a {
+            text-decoration: unset;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+
+        .container .nav ul li a:hover {
+            /* text-decoration: underline; */
+            background: #5C5C5C;
+        }
+
+        .container .content {
+            width: calc(100% - 150px);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container .content .layout {
+            padding: 20px 169px 0;
+        }
+
+        .container .content .footer {
+            height: 77px;
+            padding-left: 129px;
+            display: flex;
+            justify-content: start;
+            border-top: 1px solid #DEDEDE;
+            align-items: center;
+            margin-top: auto;
+        }
+
+        .container .content .layout .logo {
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container .content .layout .desc {
+            /* max-width: 1510px;
+            width: 100%; */
+            height: 210px;
+            background: #EFEFEF;
+            /* padding: 38px 269px; */
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+        }
+
+        .container .content .layout .desc .title {
+            padding: 38px 0 18px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            color: #000000;
+        }
+
+        .container .content .layout .desc .sub {
+            text-align: center;
+            padding: 0 269px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #000000;
+        }
+
+        .container .content .layout .articles {
+            display: flex;
+            margin-top: 40px;
+        }
+
+        .container .content .layout .articles .item {
+            width: 470px;
+            height: 252px;
+        }
+
+        .container .content .layout .articles .item .title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+        }
+
+        .container .content .layout .articles .item figure {
+            display: block;
+            margin: 0;
+            margin-right: 50px;
+        }
+
+        .container .content .layout .articles .item figure figcaption {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="/home">Home</a>
+                </li>
+                <li>
+                    <a href="/services">Services</a>
+                </li>
+                <li>
+                    <a href="/news">News</a>
+                </li>
+                <li>
+                    <a href="/blog">Blog</a>
+                </li>
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="layout">
+                <div class="logo">
+                    <img src="images/logoNCC 1.svg" alt="LOGO" />
+                </div>
+                <div class="desc">
+                    <span class="title">Lorem ipsum dolor sit asmet?</span>
+                    <span class="sub">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat placerat.
+                        Vestibulum auctor pellentesque sem, eu posuere erat hendrerit quis. Maecenas vel consequat
+                        turpis. Nam facilisis, ligula in mattis sodales, augue justo tristique nulla, sed lacinia ante
+                        eros ut mi. Morbi vitae diam augue. Aliquam vel mauris a nibh auctor commodo. Praesent et nisi
+                        eu justo eleifend convallis. Quisque suscipit maximus vestibulum. Phasellus congue mollis orci,
+                        sit amet luctus augue tristique eu. Donec vulputate odio neque, sed semper turpis pellentesque
+                        a.
+                    </span>
+                </div>
+                <div class="articles">
+                    <div class="item">
+                        <span class="title">Lorem ipsum dolor sit amet</span>
+                        <figure>
+                            <img src="images/css-icon 1.svg" alt="" />
+                            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales,
+                                faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <span class="title">Lorem ipsum dolor sit amet</span>
+                        <figure>
+                            <img src="images/html-icon 1.svg" alt="" />
+                            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales,
+                                faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="item">
+                        <span class="title">Lorem ipsum dolor sit amet</span>
+                        <figure>
+                            <img src="images/url-icon 1.svg" alt="" />
+                            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales,
+                                faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                Copyright © 2021
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
