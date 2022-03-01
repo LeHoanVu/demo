@@ -133,6 +133,12 @@
         .container .content .layout .articles .item {
             width: 470px;
             height: 252px;
+            display: inline-block;
+            margin-right: 50px;
+        }
+
+        .container .content .layout .articles .item:last-child {
+            margin-right: unset;
         }
 
         .container .content .layout .articles .item .title {
@@ -143,18 +149,13 @@
             color: #000000;
         }
 
-        .container .content .layout .articles .item figure {
-            display: block;
-            margin: 0;
-            margin-right: 50px;
-        }
-
-        .container .content .layout .articles .item figure figcaption {
+        .container .content .layout .articles .item .article-desc {
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
             line-height: 19px;
             color: #000000;
+
         }
     </style>
 </head>
@@ -199,28 +200,52 @@
                 </div>
                 <div class="articles">
                     <div class="item">
-                        <span class="title">Lorem ipsum dolor sit amet</span>
-                        <figure>
-                            <img src="images/css-icon 1.svg" alt="" />
-                            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales,
-                                faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan.</figcaption>
-                        </figure>
+                        <h1 class="title">
+                            Lorem ipsum
+                            dolor sit amet
+                        </h1>
+                        <p class="article-desc">
+                            <img src="images/css-icon 1.svg" alt="" width="128" height="128" alt="Image"
+                                style="float: left; margin-right: 10px;" />Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet
+                            suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in
+                            metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper
+                            ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat
+                            condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque
+                            ultrices vestibulum mattis.
+                        </p>
                     </div>
                     <div class="item">
-                        <span class="title">Lorem ipsum dolor sit amet</span>
-                        <figure>
-                            <img src="images/html-icon 1.svg" alt="" />
-                            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales,
-                                faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan.</figcaption>
-                        </figure>
+                        <h1 class="title">
+                            Lorem ipsum
+                            dolor sit amet
+                        </h1>
+                        <p class="article-desc">
+                            <img src="images/html-icon 1.svg" alt="" width="128" height="128" alt="Image"
+                                style="float: left; margin-right: 10px;" />Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet
+                            suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in
+                            metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper
+                            ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat
+                            condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque
+                            ultrices vestibulum mattis.
+                        </p>
                     </div>
                     <div class="item">
-                        <span class="title">Lorem ipsum dolor sit amet</span>
-                        <figure>
-                            <img src="images/url-icon 1.svg" alt="" />
-                            <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales,
-                                faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. </figcaption>
-                        </figure>
+                        <h1 class="title">
+                            Lorem ipsum
+                            dolor sit amet
+                        </h1>
+                        <p class="article-desc">
+                            <img src="images/url-icon 1.svg" alt="" width="128" height="128" alt="Image"
+                                style="float: left; margin-right: 10px;" />Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet
+                            suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in
+                            metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper
+                            ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat
+                            condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque
+                            ultrices vestibulum mattis.
+                        </p>
                     </div>
                 </div>
             </div>
